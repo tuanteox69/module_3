@@ -9,7 +9,7 @@ subjectId int primary key,
 subjectName varchar(50));
 
 create table marks(
-markId int,
+mark int,
 subjectId int,
 studentId int,
  foreign key (subjectId)references subjects(subjectId),
